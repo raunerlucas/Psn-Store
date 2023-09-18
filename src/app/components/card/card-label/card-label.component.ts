@@ -9,7 +9,6 @@ export class CardLabelComponent implements OnInit {
   @Input() gameLabel: string = ""
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
   }
 
 
