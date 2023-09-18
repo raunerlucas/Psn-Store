@@ -1,0 +1,23 @@
+.card_container{
+  position: relative;
+  border: 3px solid #3E4357;
+  border-radius: 12px;
+  width: 350px;
+  height: 500px;
+
+  display: flex;
+  overflow: hidden;
+  margin-top: 1em;
+}
+
+#card_img{
+  min-height: 100%;
+  min-width: 100%;
+  transition: transform .7s;
+}
+
+#card_img:hover{
+  transform: scale(1.1);
+
+}
+
